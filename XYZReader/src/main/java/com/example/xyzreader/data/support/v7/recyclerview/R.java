@@ -6,10 +6,10 @@
  */
 package com.example.xyzreader.data.support.v7.recyclerview;
 
-public final class R {
+final class R {
     private R() {}
 
-    public static final class attr {
+    private static final class attr {
         private attr() {}
 
         public static final int layoutManager = 0x7f020081;
@@ -17,19 +17,19 @@ public final class R {
         public static final int spanCount = 0x7f0200b5;
         public static final int stackFromEnd = 0x7f0200bb;
     }
-    public static final class dimen {
+    private static final class dimen {
         private dimen() {}
 
         public static final int item_touch_helper_max_drag_scroll_per_frame = 0x7f050063;
         public static final int item_touch_helper_swipe_escape_max_velocity = 0x7f050064;
         public static final int item_touch_helper_swipe_escape_velocity = 0x7f050065;
     }
-    public static final class id {
+    private static final class id {
         private id() {}
 
         public static final int item_touch_helper_previous_elevation = 0x7f080036;
     }
-    public static final class styleable {
+    private static final class styleable {
         private styleable() {}
 
         public static final int[] RecyclerView = { 0x10100c4, 0x10100f1, 0x7f020081, 0x7f0200a9, 0x7f0200b5, 0x7f0200bb };

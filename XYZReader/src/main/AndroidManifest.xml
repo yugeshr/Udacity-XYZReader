@@ -1,4 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.xyzreader"
     android:versionCode="1"
     android:versionName="1.0">
@@ -32,6 +33,7 @@
                 <data android:mimeType="vnd.android.cursor.item/vnd.com.example.xyzreader.items" />
             </intent-filter>
             <meta-data
+                tools:replace="android:value"
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ui.ArticleListActivity" />
         </activity>

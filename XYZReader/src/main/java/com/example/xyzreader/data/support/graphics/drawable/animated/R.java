@@ -6,7 +6,7 @@
  */
 package com.example.xyzreader.data.support.graphics.drawable.animated;
 
-public final class R {
+final class R {
     private R() {}
 
 }

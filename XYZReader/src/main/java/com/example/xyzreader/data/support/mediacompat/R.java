@@ -6,7 +6,7 @@
  */
 package com.example.xyzreader.data.support.mediacompat;
 
-public final class R {
+final class R {
     private R() {}
 
 }

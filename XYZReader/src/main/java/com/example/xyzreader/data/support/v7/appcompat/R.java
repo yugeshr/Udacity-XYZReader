@@ -6,10 +6,10 @@
  */
 package com.example.xyzreader.data.support.v7.appcompat;
 
-public final class R {
+final class R {
     private R() {}
 
-    public static final class anim {
+    private static final class anim {
         private anim() {}
 
         public static final int abc_fade_in = 0x7f010000;
@@ -23,7 +23,7 @@ public final class R {
         public static final int abc_slide_out_bottom = 0x7f010008;
         public static final int abc_slide_out_top = 0x7f010009;
     }
-    public static final class attr {
+    private static final class attr {
         private attr() {}
 
         public static final int actionBarDivider = 0x7f020000;
@@ -255,7 +255,7 @@ public final class R {
         public static final int windowMinWidthMinor = 0x7f0200f2;
         public static final int windowNoTitle = 0x7f0200f3;
     }
-    public static final class bool {
+    private static final class bool {
         private bool() {}
 
         public static final int abc_action_bar_embed_tabs = 0x7f030000;
@@ -264,7 +264,7 @@ public final class R {
         public static final int abc_config_closeDialogWhenTouchOutside = 0x7f030003;
         public static final int abc_config_showMenuShortcutsWhenKeyboardPresent = 0x7f030004;
     }
-    public static final class color {
+    private static final class color {
         private color() {}
 
         public static final int abc_background_cache_hint_selector_material_dark = 0x7f040000;
@@ -350,7 +350,7 @@ public final class R {
         public static final int switch_thumb_normal_material_dark = 0x7f040056;
         public static final int switch_thumb_normal_material_light = 0x7f040057;
     }
-    public static final class dimen {
+    private static final class dimen {
         private dimen() {}
 
         public static final int abc_action_bar_content_inset_material = 0x7f050000;
@@ -452,7 +452,7 @@ public final class R {
         public static final int notification_top_pad = 0x7f050075;
         public static final int notification_top_pad_large_text = 0x7f050076;
     }
-    public static final class drawable {
+    private static final class drawable {
         private drawable() {}
 
         public static final int abc_ab_share_pack_mtrl_alpha = 0x7f060000;
@@ -551,7 +551,7 @@ public final class R {
         public static final int notification_tile_bg = 0x7f060062;
         public static final int notify_panel_notification_icon_bg = 0x7f060063;
     }
-    public static final class id {
+    private static final class id {
         private id() {}
 
         public static final int action0 = 0x7f080000;
@@ -664,7 +664,7 @@ public final class R {
         public static final int withText = 0x7f08007f;
         public static final int wrap_content = 0x7f080080;
     }
-    public static final class integer {
+    private static final class integer {
         private integer() {}
 
         public static final int abc_config_activityDefaultDur = 0x7f090000;
@@ -672,7 +672,7 @@ public final class R {
         public static final int cancel_button_image_alpha = 0x7f090002;
         public static final int status_bar_notification_info_maxnum = 0x7f090004;
     }
-    public static final class layout {
+    private static final class layout {
         private layout() {}
 
         public static final int abc_action_bar_title_item = 0x7f0a0000;
@@ -722,7 +722,7 @@ public final class R {
         public static final int select_dialog_singlechoice_material = 0x7f0a0030;
         public static final int support_simple_spinner_dropdown_item = 0x7f0a0031;
     }
-    public static final class string {
+    private static final class string {
         private string() {}
 
         public static final int abc_action_bar_home_description = 0x7f0d0000;
@@ -759,7 +759,7 @@ public final class R {
         public static final int search_menu_title = 0x7f0d0023;
         public static final int status_bar_notification_info_overflow = 0x7f0d0024;
     }
-    public static final class style {
+    private static final class style {
         private style() {}
 
         public static final int AlertDialog_AppCompat = 0x7f0e0000;
@@ -1114,7 +1114,7 @@ public final class R {
         public static final int Widget_AppCompat_Toolbar = 0x7f0e0163;
         public static final int Widget_AppCompat_Toolbar_Button_Navigation = 0x7f0e0164;
     }
-    public static final class styleable {
+    private static final class styleable {
         private styleable() {}
 
         public static final int[] ActionBar = { 0x7f02002b, 0x7f02002c, 0x7f02002d, 0x7f020054, 0x7f020055, 0x7f020056, 0x7f020057, 0x7f020058, 0x7f020059, 0x7f020060, 0x7f020064, 0x7f020065, 0x7f020070, 0x7f020074, 0x7f020075, 0x7f020076, 0x7f020077, 0x7f020078, 0x7f02007b, 0x7f02007f, 0x7f02008d, 0x7f020094, 0x7f02009e, 0x7f0200a1, 0x7f0200a2, 0x7f0200bf, 0x7f0200c2, 0x7f0200da, 0x7f0200e3 };

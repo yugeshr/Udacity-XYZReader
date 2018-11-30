@@ -6,7 +6,7 @@
  */
 package com.example.xyzreader.data.support.v13;
 
-public final class R {
+final class R {
     private R() {}
 
 }
